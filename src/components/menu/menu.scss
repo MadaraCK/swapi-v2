@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.navigation{
+  background-color: black;
+}
+.container-menu{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.nav-box{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-logo{
+  background-image: url("/components/img/bgc.jpg");
+  height: 10vh;
+}
+
+.logo-star{
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  color: gold;
+}
+.nav-menu{
+  display: flex;
+  padding-right: 10px;
+  text-decoration: none;
+  font-size: 32px;
+  color: white;
+}
+.border-nav{
+  padding: 5px;
+  border: 1px solid gray;
+}
